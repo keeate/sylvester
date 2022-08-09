@@ -18,7 +18,7 @@
     font-style: normal;
 }
 body {
-    background: url("../img/background.png");
+    background: url("./img/background.png");
 	overflow-y: hidden;
 }
 .container{
