@@ -104,6 +104,12 @@ html {
 	overflow: scroll;
 	overflow-x: hidden;
 }
+#tab-4 p {
+	height: 560px;
+	padding-right: 20px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
 
 
 /* -----container----- */
