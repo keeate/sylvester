@@ -18,14 +18,9 @@
     font-style: normal;
 }
 body {
-	overflow: hidden;
-	width: 100vw;
-	height: 100vw;
+    background: url("../img/background.png");
+	overflow-y: hidden;
 }
-html {
-	background: url("./img/background.png");
-}
-
 .container{
 	width: 700px;
 	margin: 0 auto;
@@ -104,6 +99,7 @@ html {
 	overflow: scroll;
 	overflow-x: hidden;
 }
+
 #tab-4 p {
 	height: 560px;
 	padding-right: 20px;
@@ -127,7 +123,7 @@ html {
     position: absolute;
     top: 86px;
     right: 320px;
-    z-index: 999999;
+    z-index: 9999999;
 	pointer-events: none; 
 }
 .main {
@@ -218,7 +214,7 @@ nav .profile_29{
 	border-radius: 10px;
 }
 
-@media screen and (max-width:1700px){
+@media screen and (max-width:1800px){
 	.container{
 		width: 70vw;
 	}
